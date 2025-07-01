@@ -57,3 +57,17 @@ export class ScheduleExtra extends Component {
         this.tasks.push(newTask);
     }
 }
+
+// How to use
+//private runTimer0() {
+//     ScheduleExtra.StartCountdown(
+//         this.timer0,
+//         (remaining) => {
+//             console.log(`Timer0 Remaining：${remaining} second`);
+//             this.Lbl_Timer0.string = remaining.toString();
+//         },
+//         () => {
+//             console.log("Count down over！");
+//         }
+//     );
+// }
